@@ -1,6 +1,6 @@
 // functions ที่ทำงานตาม route
 exports.get = (req,res)=>{
-    res.send("Get Kruphakpoom here");
+    res.send("Get products here");
 }
 exports.getById =(req, res)=>{
     res.send("Get products " + req.params.id);
